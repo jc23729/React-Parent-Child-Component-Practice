@@ -2,9 +2,9 @@ import React from "react";
 
 function MainContent() {
   return (
-    <h1>
+    <main>
       <h1>this is the main content</h1>
-    </h1>
+    </main>
   );
 }
 export default MainContent;
