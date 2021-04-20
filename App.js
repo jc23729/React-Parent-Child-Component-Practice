@@ -1,8 +1,18 @@
 import React from "react"
 
+import Header from "./components/Header"
+import Header from "./components/MainContent"
+import Header from "./components/Footer"
+
 function App() {
     return (
-        <h1>Hey</h1>
+       <div>
+           <Header/>
+           <MainContent/>
+           <Footer />
+       
+       
+       </div>
     )
 }
 
